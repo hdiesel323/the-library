@@ -21,6 +21,57 @@ library:
     description: Adapt designs to work across different screen sizes, devices, and
       platforms
     source: ~/.claude/skills/adapt/SKILL.md
+  - name: ads-apple
+    description: Apple Search Ads optimization skill for Claude Code - campaign setup, keyword targeting, product targeting, search match, and bidding strategies
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-apple/SKILL.md
+  - name: ads-audit
+    description: Full multi-platform paid advertising audit with parallel subagent delegation - analyzes Google, Meta, LinkedIn, TikTok, Microsoft Ads
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-audit/SKILL.md
+  - name: ads-budget
+    description: Budget allocation and bidding strategy across paid advertising platforms - daily/monthly budgets, bid strategies, pacing
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-budget/SKILL.md
+  - name: ads-competitor
+    description: Competitive intelligence for paid ads - competitor analysis, ad espionage, benchmark insights
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-competitor/SKILL.md
+  - name: ads-create
+    description: Create and structure new paid advertising campaigns across Google, Meta, LinkedIn, TikTok, Microsoft
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-create/SKILL.md
+  - name: ads-creative
+    description: Generate and iterate ad creative - copy, images, videos, hooks, CTAs across platforms
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-creative/SKILL.md
+  - name: ads-dna
+    description: Extract the advertising DNA from best-performing ads - messaging, hooks, angles, creative patterns
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-dna/SKILL.md
+  - name: ads-generate
+    description: Generate ads at scale - mass ad creation, keyword expansion, creative variants
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-generate/SKILL.md
+  - name: ads-google
+    description: Google Ads optimization - Search, Performance Max, Display, YouTube ads management
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-google/SKILL.md
+  - name: ads-landing
+    description: Landing page optimization for paid traffic - conversion rate optimization, A/B testing, post-click experience
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-landing/SKILL.md
+  - name: ads-linkedin
+    description: LinkedIn Ads management - Campaign Manager, Lead Gen Forms, audience targeting
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-linkedin/SKILL.md
+  - name: ads-meta
+    description: Meta Ads optimization - Facebook, Instagram, Audience Network, Advantage+ campaigns
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-meta/SKILL.md
+  - name: ads-microsoft
+    description: Microsoft Ads management - Bing, Yahoo, DuckDuckGo advertising
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-microsoft/SKILL.md
+  - name: ads-photoshoot
+    description: Ad photoshoot planning and creative direction - studio, location, models, product photography
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-photoshoot/SKILL.md
+  - name: ads-plan
+    description: Strategic ad planning - channel mix, budget allocation, creative strategy, campaign sequencing
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-plan/SKILL.md
+  - name: ads-tiktok
+    description: TikTok Ads management - Spark Ads, In-Feed, TopView, collection ads
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-tiktok/SKILL.md
+  - name: ads-youtube
+    description: YouTube Ads optimization - TrueView, Shorts, in-stream, bumper ads
+    source: https://github.com/AgriciDaniel/claude-ads/blob/main/skills/ads-youtube/SKILL.md
   - name: agent-browser-profile
     description: Query user's browser-extracted profile for identity, accounts, tools,
       contacts
