@@ -10,6 +10,542 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: ab-test-setup
+      description: Plan, design, and implement A/B tests with statistical significance calculation
+      source: ~/.claude/skills/ab-test-setup/SKILL.md
+
+    - name: ad-creative
+      description: Generate, iterate, and scale ad creative across Google, Meta, Microsoft
+      source: ~/.claude/skills/ad-creative/SKILL.md
+
+    - name: adapt
+      description: Adapt designs to work across different screen sizes, devices, and platforms
+      source: ~/.claude/skills/adapt/SKILL.md
+
+    - name: agent-browser-profile
+      description: Query user's browser-extracted profile for identity, accounts, tools, contacts
+      source: ~/.claude/skills/agent-browser-profile/SKILL.md
+
+    - name: agent-md-refactor
+      description: Refactor bloated AGENTS.md, CLAUDE.md into organized progressive disclosure docs
+      source: ~/.claude/skills/agent-md-refactor/SKILL.md
+
+    - name: ai-seo
+      description: Optimize content for AI search engines (Perplexity, ChatGPT, Google AI Overviews)
+      source: ~/.claude/skills/ai-seo/SKILL.md
+
+    - name: analytics-tracking
+      description: Set up, improve, or audit analytics tracking (GA4, Google Tag Manager, events)
+      source: ~/.claude/skills/analytics-tracking/SKILL.md
+
+    - name: animate
+      description: Review a feature and enhance it with purposeful animations and motion design
+      source: ~/.claude/skills/animate/SKILL.md
+
+    - name: anthropic-frontend-design
+      description: Create distinctive, production-grade frontend interfaces with high design quality
+      source: ~/.claude/skills/anthropic-frontend-design/SKILL.md
+
+    - name: audit
+      description: Comprehensive audit of interface quality across accessibility, performance, UX
+      source: ~/.claude/skills/audit/SKILL.md
+
+    - name: backend-to-frontend-handoff-docs
+      description: Create API handoff documentation for frontend developers
+      source: ~/.claude/skills/backend-to-frontend-handoff-docs/SKILL.md
+
+    - name: bolder
+      description: Amplify safe or boring designs to make them more visually impactful and bold
+      source: ~/.claude/skills/bolder/SKILL.md
+
+    - name: brainstorming
+      description: MUST use before creative work - explores user intent, requirements, design first
+      source: ~/.claude/skills/brainstorming/SKILL.md
+
+    - name: c4-architecture
+      description: Generate architecture documentation using C4 model Mermaid diagrams
+      source: ~/.claude/skills/c4-architecture/SKILL.md
+
+    - name: canvas-design
+      description: Create visual art in .png and .pdf documents using design philosophy
+      source: ~/.claude/skills/canvas-design/SKILL.md
+
+    - name: churn-prevention
+      description: Reduce churn, build cancellation flows, and improve retention
+      source: ~/.claude/skills/churn-prevention/SKILL.md
+
+    - name: clarify
+      description: Improve unclear UX copy, error messages, microcopy, labels, and UI text
+      source: ~/.claude/skills/clarify/SKILL.md
+
+    - name: code-review-excellence
+      description: Systematic code review methodology for thorough, effective feedback
+      source: ~/.claude/skills/code-review-excellence/SKILL.md
+
+    - name: codex
+      description: Use when user asks to run Codex CLI for code analysis or refactoring
+      source: ~/.claude/skills/codex/SKILL.md
+
+    - name: cold-email
+      description: Write B2B cold emails and follow-up sequences that get replies
+      source: ~/.claude/skills/cold-email/SKILL.md
+
+    - name: colorize
+      description: Add strategic color to features that are too monochromatic or boring
+      source: ~/.claude/skills/colorize/SKILL.md
+
+    - name: command-creator
+      description: Create Claude Code slash commands with proper structure and best practices
+      source: ~/.claude/skills/command-creator/SKILL.md
+
+    - name: commit-work
+      description: Create high-quality git commits with review, staging, and clear messages
+      source: ~/.claude/skills/commit-work/SKILL.md
+
+    - name: competitor-alternatives
+      description: Create competitor comparison or alternative analysis charts
+      source: ~/.claude/skills/competitor-alternatives/SKILL.md
+
+    - name: content-strategy
+      description: Plan content strategy, decide what content to create and how to distribute
+      source: ~/.claude/skills/content-strategy/SKILL.md
+
+    - name: convex-schema-validator
+      description: Defining and validating database schemas with proper typing for Convex
+      source: ~/.claude/skills/convex-schema-validator/SKILL.md
+
+    - name: copy-editing
+      description: Edit, review, or improve existing marketing copy for clarity and impact
+      source: ~/.claude/skills/copy-editing/SKILL.md
+
+    - name: copywriting
+      description: Write, rewrite, or improve marketing copy for conversions
+      source: ~/.claude/skills/copywriting/SKILL.md
+
+    - name: crafting-effective-readmes
+      description: Write or improve README files with templates matched to audience
+      source: ~/.claude/skills/crafting-effective-readmes/SKILL.md
+
+    - name: critique
+      description: Evaluate design effectiveness from UX perspective with usability heuristics
+      source: ~/.claude/skills/critique/SKILL.md
+
+    - name: daily-meeting-update
+      description: Interactive daily standup/meeting update generator with GitHub/Jira integration
+      source: ~/.claude/skills/daily-meeting-update/SKILL.md
+
+    - name: database-schema-designer
+      description: Design robust, scalable database schemas for SQL and NoSQL databases
+      source: ~/.claude/skills/database-schema-designer/SKILL.md
+
+    - name: datadog-cli
+      description: Datadog CLI for searching logs, querying metrics, tracing requests
+      source: ~/.claude/skills/datadog-cli/SKILL.md
+
+    - name: deep-research
+      description: Conduct enterprise-grade research with multi-source synthesis and verification
+      source: ~/.claude/skills/deep-research/SKILL.md
+
+    - name: delight
+      description: Add moments of joy, personality, and unexpected touches to experiences
+      source: ~/.claude/skills/delight/SKILL.md
+
+    - name: dependency-updater
+      description: Smart dependency management for any language with auto-detection
+      source: ~/.claude/skills/dependency-updater/SKILL.md
+
+    - name: design-system-starter
+      description: Create and evolve design systems with tokens, components, accessibility
+      source: ~/.claude/skills/design-system-starter/SKILL.md
+
+    - name: design-taste-frontend
+      description: Senior UI/UX Engineer - architect digital interfaces with creative direction
+      source: ~/.claude/skills/design-taste-frontend/SKILL.md
+
+    - name: difficult-workplace-conversations
+      description: Structured approach to workplace conflicts, performance discussions
+      source: ~/.claude/skills/difficult-workplace-conversations/SKILL.md
+
+    - name: direct-response-copywriting
+      description: Write high-converting direct response copy using proven frameworks
+      source: ~/.claude/skills/direct-response-copywriting/SKILL.md
+
+    - name: dispatching-parallel-agents
+      description: Use when facing 2+ independent tasks that can work in parallel
+      source: ~/.claude/skills/dispatching-parallel-agents/SKILL.md
+
+    - name: distill
+      description: Strip designs to essence by removing unnecessary complexity
+      source: ~/.claude/skills/distill/SKILL.md
+
+    - name: doc-coauthoring
+      description: Guide users through structured workflow for co-authoring documentation
+      source: ~/.claude/skills/doc-coauthoring/SKILL.md
+
+    - name: docx
+      description: Create, read, edit, or manipulate Word documents (.docx files)
+      source: ~/.claude/skills/docx/SKILL.md
+
+    - name: domain-name-brainstormer
+      description: Generate creative domain name ideas and check availability across TLDs
+      source: ~/.claude/skills/domain-name-brainstormer/SKILL.md
+
+    - name: draw-io
+      description: draw.io diagram creation, editing, and review for .drawio files
+      source: ~/.claude/skills/draw-io/SKILL.md
+
+    - name: email-sequence
+      description: Create or optimize email sequences for nurturing, onboarding, sales
+      source: ~/.claude/skills/email-sequence/SKILL.md
+
+    - name: excalidraw
+      description: Work with *.excalidraw files for diagrams and flowchart visualization
+      source: ~/.claude/skills/excalidraw/SKILL.md
+
+    - name: expo-api-routes
+      description: Guidelines for creating API routes in Expo Router with EAS Hosting
+      source: ~/.claude/skills/expo-api-routes/SKILL.md
+
+    - name: expo-native-data-fetching
+      description: Implement or debug ANY network request, API call, or data fetching
+      source: ~/.claude/skills/expo-native-data-fetching/SKILL.md
+
+    - name: extract
+      description: Extract and consolidate reusable components, design tokens from codebase
+      source: ~/.claude/skills/extract/SKILL.md
+
+    - name: feedback-mastery
+      description: Navigate difficult conversations with structured frameworks (SBI, PDCA)
+      source: ~/.claude/skills/feedback-mastery/SKILL.md
+
+    - name: find-skills
+      description: Discover and install agent skills from the public registry
+      source: ~/.claude/skills/find-skills/SKILL.md
+
+    - name: form-cro
+      description: Optimize forms for conversion (NOT signup/registration forms)
+      source: ~/.claude/skills/form-cro/SKILL.md
+
+    - name: free-tool-strategy
+      description: Plan, evaluate, or build a free tool for lead generation
+      source: ~/.claude/skills/free-tool-strategy/SKILL.md
+
+    - name: frontend-design
+      description: Create distinctive, production-grade frontend interfaces
+      source: ~/.claude/skills/frontend-design/SKILL.md
+
+    - name: frontend-design-harness
+      description: Generator→evaluator loop that audits and fixes every page via screenshots
+      source: ~/.claude/skills/frontend-design-harness/SKILL.md
+
+    - name: frontend-to-backend-requirements
+      description: Document frontend data needs for backend developers
+      source: ~/.claude/skills/frontend-to-backend-requirements/SKILL.md
+
+    - name: full-output-enforcement
+      description: Overrides default LLM truncation for complete output
+      source: ~/.claude/skills/full-output-enforcement/SKILL.md
+
+    - name: game-changing-features
+      description: Find 10x product opportunities and high-leverage improvements
+      source: ~/.claude/skills/game-changing-features/SKILL.md
+
+    - name: gemini
+      description: Run Gemini CLI for code review, plan review, or large context processing
+      source: ~/.claude/skills/gemini/SKILL.md
+
+    - name: gepetto
+      description: Creates detailed sectionized implementation plans through research
+      source: ~/.claude/skills/gepetto/SKILL.md
+
+    - name: google-workspace-setup
+      description: Set up Google Workspace integration (Gmail, Calendar, Drive, Docs)
+      source: ~/.claude/skills/google-workspace-setup/SKILL.md
+
+    - name: harden
+      description: Improve interface resilience through error handling, fallbacks, validation
+      source: ~/.claude/skills/harden/SKILL.md
+
+    - name: high-end-visual-design
+      description: Design like a high-end agency with distinctive aesthetics
+      source: ~/.claude/skills/high-end-visual-design/SKILL.md
+
+    - name: humanizer
+      description: Remove signs of AI-generated writing from text for natural tone
+      source: ~/.claude/skills/humanizer/SKILL.md
+
+    - name: industrial-brutalist-ui
+      description: Raw mechanical interfaces fusing Swiss typography with digital brutalism
+      source: ~/.claude/skills/industrial-brutalist-ui/SKILL.md
+
+    - name: jira
+      description: Manage Jira issues, tickets, sprints, and workflow
+      source: ~/.claude/skills/jira/SKILL.md
+
+    - name: launch-strategy
+      description: Plan product launch, feature announcement, go-to-market strategy
+      source: ~/.claude/skills/launch-strategy/SKILL.md
+
+    - name: library
+      description: Private skill distribution system for managing skills, agents, prompts
+      source: ~/.claude/skills/library/SKILL.md
+
+    - name: marketing-ideas
+      description: Generate marketing ideas, inspiration, or strategy
+      source: ~/.claude/skills/marketing-ideas/SKILL.md
+
+    - name: marketing-psychology
+      description: Apply psychological principles, mental models to marketing
+      source: ~/.claude/skills/marketing-psychology/SKILL.md
+
+    - name: marp-slide
+      description: Create professional Marp presentation slides with beautiful themes
+      source: ~/.claude/skills/marp-slide/SKILL.md
+
+    - name: mcp-builder
+      description: Guide for creating high-quality MCP (Model Context Protocol) servers
+      source: ~/.claude/skills/mcp-builder/SKILL.md
+
+    - name: meme-factory
+      description: Generate memes using memegen.link API with 100+ templates
+      source: ~/.claude/skills/meme-factory/SKILL.md
+
+    - name: mermaid-diagrams
+      description: Comprehensive guide for creating software diagrams using Mermaid
+      source: ~/.claude/skills/mermaid-diagrams/SKILL.md
+
+    - name: minimalist-ui
+      description: Clean editorial-style interfaces with warm monochrome palette
+      source: ~/.claude/skills/minimalist-ui/SKILL.md
+
+    - name: mui
+      description: Material-UI v7 component library patterns with sx prop styling
+      source: ~/.claude/skills/mui/SKILL.md
+
+    - name: naming-analyzer
+      description: Suggest better variable, function, and class names based on context
+      source: ~/.claude/skills/naming-analyzer/SKILL.md
+
+    - name: neon-postgres
+      description: Guides and best practices for working with Neon Serverless Postgres
+      source: ~/.claude/skills/neon-postgres/SKILL.md
+
+    - name: normalize
+      description: Normalize design to match design system and ensure consistency
+      source: ~/.claude/skills/normalize/SKILL.md
+
+    - name: omc-reference
+      description: OMC agent catalog, tools, team pipeline, commit protocol, skills registry
+      source: ~/.claude/skills/omc-reference/SKILL.md
+
+    - name: onboard
+      description: Design or improve onboarding flows, empty states, first-use experiences
+      source: ~/.claude/skills/onboard/SKILL.md
+
+    - name: onboarding-cro
+      description: Optimize post-signup onboarding, activation, and first-value moments
+      source: ~/.claude/skills/onboarding-cro/SKILL.md
+
+    - name: openapi-to-typescript
+      description: Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces
+      source: ~/.claude/skills/openapi-to-typescript/SKILL.md
+
+    - name: optimize
+      description: Improve interface performance across loading speed, rendering, bundle size
+      source: ~/.claude/skills/optimize/SKILL.md
+
+    - name: page-cro
+      description: Optimize, improve, or increase conversion on landing pages
+      source: ~/.claude/skills/page-cro/SKILL.md
+
+    - name: paid-ads
+      description: Help with paid advertising campaigns on Google, Meta, LinkedIn, TikTok
+      source: ~/.claude/skills/paid-ads/SKILL.md
+
+    - name: paywall-upgrade-cro
+      description: Create or optimize in-app paywalls, upgrade prompts, trial conversions
+      source: ~/.claude/skills/paywall-upgrade-cro/SKILL.md
+
+    - name: pdf
+      description: Do anything with PDF files - read, extract, merge, split, create, OCR
+      source: ~/.claude/skills/pdf/SKILL.md
+
+    - name: perplexity
+      description: Web search and research using Perplexity AI
+      source: ~/.claude/skills/perplexity/SKILL.md
+
+    - name: plugin-forge
+      description: Create and manage Claude Code plugins with proper structure
+      source: ~/.claude/skills/plugin-forge/SKILL.md
+
+    - name: polish
+      description: Final quality pass - fixes alignment, spacing, typography, consistency
+      source: ~/.claude/skills/polish/SKILL.md
+
+    - name: popup-cro
+      description: Create or optimize popups, modals, overlays for conversions
+      source: ~/.claude/skills/popup-cro/SKILL.md
+
+    - name: pptx
+      description: Create, read, edit, or manipulate PowerPoint (.pptx) files
+      source: ~/.claude/skills/pptx/SKILL.md
+
+    - name: pricing-strategy
+      description: Help with pricing decisions, packaging, tier strategy
+      source: ~/.claude/skills/pricing-strategy/SKILL.md
+
+    - name: product-marketing-context
+      description: Create or update product marketing context, positioning, messaging
+      source: ~/.claude/skills/product-marketing-context/SKILL.md
+
+    - name: professional-communication
+      description: Guide technical communication for software developers
+      source: ~/.claude/skills/professional-communication/SKILL.md
+
+    - name: programmatic-seo
+      description: Create SEO-driven pages at scale using programmatic generation
+      source: ~/.claude/skills/programmatic-seo/SKILL.md
+
+    - name: prompt-lookup
+      description: Discover, retrieve, and improve AI prompts
+      source: ~/.claude/skills/prompt-lookup/SKILL.md
+
+    - name: qa-test-planner
+      description: Generate comprehensive test plans, manual test cases, regression suites
+      source: ~/.claude/skills/qa-test-planner/SKILL.md
+
+    - name: quieter
+      description: Tone down overly bold or aggressive designs
+      source: ~/.claude/skills/quieter/SKILL.md
+
+    - name: react-dev
+      description: Build React components with TypeScript, typing hooks, React 19 patterns
+      source: ~/.claude/skills/react-dev/SKILL.md
+
+    - name: react-useeffect
+      description: React useEffect best practices - when NOT to use Effect and alternatives
+      source: ~/.claude/skills/react-useeffect/SKILL.md
+
+    - name: redesign-existing-projects
+      description: Upgrade existing websites and apps to premium quality
+      source: ~/.claude/skills/redesign-existing-projects/SKILL.md
+
+    - name: reducing-entropy
+      description: Manual-only skill for minimizing total codebase size
+      source: ~/.claude/skills/reducing-entropy/SKILL.md
+
+    - name: referral-program
+      description: Create, optimize, or analyze referral programs
+      source: ~/.claude/skills/referral-program/SKILL.md
+
+    - name: remotion-best-practices
+      description: Best practices for Remotion - Video creation in React
+      source: ~/.claude/skills/remotion-best-practices/SKILL.md
+
+    - name: requirements-clarity
+      description: Clarify ambiguous requirements through focused dialogue
+      source: ~/.claude/skills/requirements-clarity/SKILL.md
+
+    - name: revops
+      description: Help with revenue operations, lead lifecycle, automation
+      source: ~/.claude/skills/revops/SKILL.md
+
+    - name: sales-enablement
+      description: Create sales collateral, pitch decks, battle cards
+      source: ~/.claude/skills/sales-enablement/SKILL.md
+
+    - name: schema-markup
+      description: Add, fix, or optimize schema markup for SEO
+      source: ~/.claude/skills/schema-markup/SKILL.md
+
+    - name: seo-audit
+      description: Audit, review, or diagnose SEO issues on websites
+      source: ~/.claude/skills/seo-audit/SKILL.md
+
+    - name: session-handoff
+      description: Creates comprehensive handoff documents for AI agent session transfers
+      source: ~/.claude/skills/session-handoff/SKILL.md
+
+    - name: ship-learn-next
+      description: Transform learning content into actionable implementation plans
+      source: ~/.claude/skills/ship-learn-next/SKILL.md
+
+    - name: signup-flow-cro
+      description: Optimize signup, registration, account creation flows
+      source: ~/.claude/skills/signup-flow-cro/SKILL.md
+
+    - name: skill-judge
+      description: Evaluate Agent Skill design quality against specifications and best practices
+      source: ~/.claude/skills/skill-judge/SKILL.md
+
+    - name: social-autoposter
+      description: Automate social media posting across Reddit, X, LinkedIn, Mastodon
+      source: ~/.claude/skills/social-autoposter/SKILL.md
+
+    - name: social-autoposter-setup
+      description: Set up social-autoposter for a new user with interactive wizard
+      source: ~/.claude/skills/social-autoposter-setup/SKILL.md
+
+    - name: social-content
+      description: Create, schedule, or optimize social media content
+      source: ~/.claude/skills/social-content/SKILL.md
+
+    - name: stitch-design-taste
+      description: Semantic Design System Skill for Google Stitch
+      source: ~/.claude/skills/stitch-design-taste/SKILL.md
+
+    - name: supabase-postgres-best-practices
+      description: Postgres performance optimization and best practices from Supabase
+      source: ~/.claude/skills/supabase-postgres-best-practices/SKILL.md
+
+    - name: teach-impeccable
+      description: One-time setup that gathers design context for your project
+      source: ~/.claude/skills/teach-impeccable/SKILL.md
+
+    - name: telegram
+      description: Send and receive Telegram messages with setup and auth
+      source: ~/.claude/skills/telegram/SKILL.md
+
+    - name: terminal-notifier
+      description: Send macOS desktop notifications
+      source: ~/.claude/skills/terminal-notifier/SKILL.md
+
+    - name: travel-planner
+      description: Plan trips, create itineraries, manage travel budgets
+      source: ~/.claude/skills/travel-planner/SKILL.md
+
+    - name: using-superpowers
+      description: Establishes how to find and use skills at session start
+      source: ~/.claude/skills/using-superpowers/SKILL.md
+
+    - name: vercel-react-best-practices
+      description: React and Next.js performance optimization guidelines from Vercel
+      source: ~/.claude/skills/vercel-react-best-practices/SKILL.md
+
+    - name: vercel-web-design-guidelines
+      description: Review UI code for Web Interface Guidelines compliance
+      source: ~/.claude/skills/vercel-web-design-guidelines/SKILL.md
+
+    - name: video-edit
+      description: Edit long videos into short clips using transcript analysis and ffmpeg
+      source: ~/.claude/skills/video-edit/SKILL.md
+
+    - name: web-scraping
+      description: Expert in web scraping and data extraction with Python tools
+      source: ~/.claude/skills/web-scraping/SKILL.md
+
+    - name: web-to-markdown
+      description: Converts webpage URLs to clean Markdown using web2md CLI
+      source: ~/.claude/skills/web-to-markdown/SKILL.md
+
+    - name: writing-clearly-and-concisely
+      description: Write prose humans will read - documentation, commits, explanations
+      source: ~/.claude/skills/writing-clearly-and-concisely/SKILL.md
+
+    - name: xlsx
+      description: Do anything with spreadsheet files - open, read, edit, create, convert
+      source: ~/.claude/skills/xlsx/SKILL.md
+
   agents: []
   prompts: []
