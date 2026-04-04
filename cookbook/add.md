@@ -1,5 +1,7 @@
 # Add a New Entry to the Library
 
+> **See [add-items.md](add-items.md) for detailed step-by-step guide** (analyzing sources, installing items, examples)
+
 ## Context
 Register a new skill, agent, or prompt in the library catalog.
 
