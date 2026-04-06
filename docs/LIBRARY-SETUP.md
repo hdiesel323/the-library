@@ -34,20 +34,32 @@ Based on Indie Dev Dan's setup from https://www.youtube.com/watch?v=_vpNQ6IwP9w
 
 ---
 
+## Current State
+
+Your **hd-library** already contains:
+- **287 skills** cataloged in `library.yaml`
+- Including: 50+ ads-* skills (from claude-ads repo)
+- Local skills: `~/.claude/skills/`
+- Remote skills: GitHub URLs
+
+### idd-library (hdiesel323/idd-library)
+**Purpose:** Domain-specific library for specialized workflows
+**Use for:** Engineering, sales, support use cases
+
+---
+
 ## Repository Purposes
 
 ### hd-library (hdiesel323/hd-library)
 **Purpose:** Your personal reference catalog
 **Type:** Private
 **Use for:** Skills, agents, prompts you want accessible everywhere
+**Contains:** `library.yaml` with 287+ skill references, hooks, cookbook
 
 ### the-library (hdiesel323/the-library)
 **Purpose:** Forkable template for others
 **Type:** Public (or private if preferred)
 **Use for:** Sharing your library system with team/template users
-
-### idd-library (hdiesel323/idd-library)
-**Purpose:** TODO - needs distinction
 **Status:** Same description as hd-library - requires clarification
 
 ---
