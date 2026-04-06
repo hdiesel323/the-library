@@ -42,24 +42,29 @@ Your **hd-library** already contains:
 - Local skills: `~/.claude/skills/`
 - Remote skills: GitHub URLs
 
-### idd-library (hdiesel323/idd-library)
-**Purpose:** Domain-specific library for specialized workflows
-**Use for:** Engineering, sales, support use cases
-
 ---
 
 ## Repository Purposes
 
 ### hd-library (hdiesel323/hd-library)
-**Purpose:** Your personal reference catalog
+**Purpose:** Master reference catalog - all your best skills/agents/prompts
 **Type:** Private
-**Use for:** Skills, agents, prompts you want accessible everywhere
-**Contains:** `library.yaml` with 287+ skill references, hooks, cookbook
+**Use for:** Personal reference, accessible everywhere
+
+### Domain Libraries (Per Dan's Model)
+Based on the transcript: "you're going to have multiple of these. Maybe we have support, maybe we have sales."
+
+| Repo | Purpose |
+|------|---------|
+| `library-engineer` | Code review, debugging, refactoring skills |
+| `library-sales` | Cold emails, follow-ups, discovery |
+| `library-support` | Customer support, troubleshooting, triage |
+| `idd-library` | **DEPRECATED** - Use domain libs above |
 
 ### the-library (hdiesel323/the-library)
 **Purpose:** Forkable template for others
-**Type:** Public (or private if preferred)
-**Use for:** Sharing your library system with team/template users
+**Type:** Public
+**Use for:** Sharing library system with team
 **Status:** Same description as hd-library - requires clarification
 
 ---
